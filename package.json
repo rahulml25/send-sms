@@ -1,0 +1,27 @@
+{
+  "name": "send-sms",
+  "version": "0.0.1",
+  "description": "Sending sms using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahulml2505/send-sms.git"
+  },
+  "author": "rahul2505",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.0",
+    "fast-two-sms": "^3.0.0",
+    "nexmo": "^2.9.1",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

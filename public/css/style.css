@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 0 auto;
+}
+
+main h1 {
+  text-align: center;
+}
+
+form {
+  margin: 18px 6px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+form input {
+  padding: 5px 6px;
+  margin: 4px 3px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+form .btns {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btns button {
+  padding: 8px 9px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border-width: .5px;
+
+  color: #f0f8ff;
+  background-color: #4166f5;
+
+  transition: .3s;
+}
+
+.btns button:active {
+  border-color: #4166f5;
+  background-color: white;
+  color: #4166f5;
+}
+
+main p {
+  color: #a9a9a9;
+  color: black;
+}
